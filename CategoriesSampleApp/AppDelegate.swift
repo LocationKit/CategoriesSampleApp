@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let locationKit = LocationKit.sharedInstance();
 
         // First, start LocationKit
-        locationKit.startWithApiToken("cf725f29adb95ec5", delegate: self.locationManager)
+        locationKit.startWithApiToken("your_token_goes_here", delegate: self.locationManager)
 
         // Next let's give it some visit criteria
         let visitCriteria = LKVisitCriteria()
