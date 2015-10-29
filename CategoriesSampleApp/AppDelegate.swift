@@ -27,6 +27,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // visits regardless of name or category
         visitCriteria.anyVenue = true
 
+        // Set this visit criteria so LocationKit will use it
         locationKit.setVisitCriteria([visitCriteria])
         return true
     }
